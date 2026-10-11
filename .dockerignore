@@ -50,11 +50,30 @@ Thumbs.db
 # Audio files (except samples)
 *.wav
 !sample/*.wav
+!src/vieneu/assets/samples/**
 outputs/
 
 # Temporary files
 *.tmp
 .cache/
+
+# Heavy / unused for Cog inference image
+apps/
+client/
+docs/
+examples/
+finetune/
+tests/
+*.md
+!README.md
+uv.lock
+requirements_xpu.txt
+run_xpu.bat
+setup_xpu_uv.bat
+Makefile
+config.yaml
+README.vi.md
+README_PYPI.md
 
 
 

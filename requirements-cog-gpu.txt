@@ -1,0 +1,14 @@
+torch==2.8.0
+torchaudio==2.8.0
+transformers==4.57.6
+safetensors
+sea-g2p>=0.9.1
+onnxruntime>=1.20.0
+numpy
+soundfile
+soxr
+kaldi-native-fbank>=1.20
+tokenizers>=0.20
+huggingface_hub
+PyYAML
+librosa>=0.11.0

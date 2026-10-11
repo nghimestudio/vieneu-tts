@@ -1,0 +1,15 @@
+# VieNeu-TTS v3 Turbo on Replicate (GPU / PyTorch)
+build:
+  gpu: true
+  cuda: "12.4"
+  python_version: "3.12"
+  python_requirements: requirements-cog-gpu.txt
+  system_packages:
+    - "ffmpeg"
+    - "libsndfile1"
+
+predict: "predict.py:Predictor"
+
+# Change to your Replicate username/model before pushing:
+#   cog push r8.im/<your-user>/vieneu-tts
+image: "r8.im/nghimestudio/vieneu-tts"
