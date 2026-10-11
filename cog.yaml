@@ -1,7 +1,7 @@
 # VieNeu-TTS v3 Turbo on Replicate (GPU / PyTorch)
 build:
   gpu: true
-  cuda: "12.4"
+  cuda: "12.1"
   python_version: "3.12"
   python_requirements: requirements-cog-gpu.txt
   system_packages:
